@@ -50,6 +50,7 @@ void Cake::getCake()
 	cin.ignore();
 	cin.clear();
 }
+
 void Cake::putCake()
 {
 	cout<< ID << "\t" << cType
@@ -57,3 +58,6 @@ void Cake::putCake()
 		<< "\t" << "  " << cTopping
 		<< "\t" << "\t"  << qty << "\t" << price << endl;
 }
+
+
+

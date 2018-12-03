@@ -13,12 +13,12 @@ int main()
 	system("color F0");
 	char answer = 'N';
 	do {
-		Cake c[60]; //object array
+		Cake c[100]; //object array
 		int n, i;
-		cout << "Enter number of Cake Items[1-60] : ";
+		cout << "Enter number of Cake Items[1-100] : ";
 		cin >> n;
-		if (n < 1 || n>60)
-			cout << "Value must be between 1 to 60 only " << endl;
+		if (n < 1 || n>100)
+			cout << "Value must be between 1 to 100 only " << endl;
 		else
 			for (i = 0; i < n; i++)
 				c[i].getCake();
