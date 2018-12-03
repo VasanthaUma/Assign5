@@ -17,7 +17,7 @@ int main()
 		int n, i;
 		cout << "Enter number of Cake Items[1-100] : ";
 		cin >> n;
-		if (n < 1 || n>100)
+		if (n < 1 || n>=100)
 			cout << "Value must be between 1 to 100 only " << endl;
 		else
 			for (i = 0; i < n; i++)
