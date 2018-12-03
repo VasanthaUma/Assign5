@@ -23,11 +23,13 @@ int main()
 			for (i = 0; i < n; i++)
 				c[i].getCake();
 		cout << endl;
-
+		cout << "\t \t     My Favorite Food - Cakes "<<endl;
+		cout << "\t \t     __________________________ \n " << endl;
 		cout << "ID \t Type     \t Flavour \t topping \t Quantity \t Price \n";
 		cout << "_____________________________________________________________________________\n";
 		for (i = 0; i < n; i++)c[i].putCake();
-		cout << "do you want to enter another Cake Item? enter Y to continue  ?";
+		cout << "______________________________________________________________________________\n";
+		cout << "do you want to enter another Cake Item? enter Y to continue ? ";
 		cin >> answer;
 
 		// need to clear the input buffer before asking for another item
